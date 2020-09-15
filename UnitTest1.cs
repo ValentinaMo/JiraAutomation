@@ -17,9 +17,9 @@ namespace JiraAutomationTests
 
             driver.Manage().Window.Maximize();
             var username = driver.FindElementById("login-form-username");
-            username.SendKeys("sebas.adm1n10");
+            username.SendKeys("valentinal0929");
             var password = driver.FindElementById("login-form-password");
-            password.SendKeys("Demo1234");
+            password.SendKeys("chorro123");
             var loguinButton = driver.FindElementById("login");
             loguinButton.Click();
             Thread.Sleep(5000);
